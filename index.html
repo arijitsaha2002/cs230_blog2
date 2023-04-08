@@ -69,16 +69,16 @@
 
 
             <div class="heading">
-                What is CPU
+                What is CPU?
             </div>
 
 
             <div class="content">
 
-                Before going to tell what GPU is, you should know what a CPU is and the underline architecture of a CPU.
+                Before you know what a GPU is, you should know what a CPU is and the underline architecture of a CPU.
                 A Central Processing Unit, or CPU for short, is the brain of your computer. The main components of the
-                CPU are Control Unit ( to regulate and integrate the operations ), ALU ( to do arithmetic and logical
-                operations ), and Registers ( to store data for fast processing ). The sequence of actions performed for
+                CPU are Control Unit (to regulate and integrate the operations), ALU (to do arithmetic and logical
+                operations), and Registers (to store data for fast processing). The sequence of actions performed for
                 instruction is fetching, decoding, doing mathematical computations, and writing to a memory address or
                 another register. CPU uses different levels of cache to access data from the main Memory or DRAM. One
                 can judge a CPU by its clock cycle, number of cores, and generation.
@@ -86,7 +86,7 @@
 
             </div>
             <div class="heading">
-                what is GPU
+                What is GPU?
             </div>
             <div class="content">
 
@@ -102,27 +102,27 @@
             </div>
 
             <div class="heading">
-                Why we need GPU
+                Why do we need GPU?
             </div>
             <div class="content">
-                Now, you know what GPU and CPU are. Now, look at this example. Many of us have our Car. If we already
-                have cars, why do these racing cars even exist? If one uses these cars for racing, he will never win a
+                Now, you know what GPU and CPU are. Now, look at this example. Many of us have our car. If we already
+                have cars, why do these racing cars even exist? If one uses normal cars for racing, he will never win a
                 single race. One cannot use racing cars for general purposes since they are specially made for racing.
-                GPU and CPU are like racing cars. CPU can do all work whereas GPUs are specially made for parallel
-                processing. GPU has too many cores for processing too many things simultaneously. When you play a video,
-                a computer must render all objects for the game. All of these objects are independent. Cars, builds, and
+                GPU and CPU are like racing cars and normal cars respectively. CPU can do all work whereas GPUs are specially made for parallel
+                processing. GPU has too many cores for processing many things simultaneously. When you play a game,
+                a computer must render all objects for the game. All of these objects are independent. Cars, buildings, and
                 clouds all these objects in the game need to be created simultaneously and independently. GPUs are
                 incredibly good at that.
 
             </div>
 
             <div class="heading">
-                Can GPU replace CPU
+                Can GPU replace CPU?
             </div>
             <div class="content">
 
-                The short answer is no, GPU cannot replace CPUs. While GPUs are incredibly powerful when handling
-                complex graphics and video rendering tasks, machine learning, Server-side. But they lack the flexibility
+                The short answer is no, GPU cannot replace CPU. While GPUs are incredibly powerful when handling
+                complex graphics and video rendering tasks, machine learning. But they lack the flexibility
                 and
                 versatility of CPUs. CPUs can handle a wide range of applications, including those that require a lot of
                 branching, decision-making, and input/output operations. They are also better suited for tasks that
@@ -131,8 +131,8 @@
                 amounts of data faster. But GPUs have a large amount of memory, which is not faster than cache memory
                 found in CPUs. Hence, GPUs are the better choice for some specific industries like gaming, machine
                 learning, and scientific simulations. While GPUs are incredibly powerful, they cannot replace CPUs since
-                they cannot be used for general purposes. But the growth of the GPU industry is growing faster than the
-                CPU. In the future GPU will eventually surpass the CPU industry.
+                they cannot be used for general purposes. But the GPU industry is growing faster than the
+                CPU. In future, GPU will eventually surpass the CPU industry.
 
             </div>
 
@@ -154,9 +154,10 @@
                 <br>
                 <br>
 
-                GPUs use parallel processing, so each process needs memory access. GPU memory access is very high
+                GPUs use parallel processing, so each process needs memory access. GPU's memory access is very high as
                 compared to CPU, which causes a large Compute-Memory Gap. Due to low memory bandwidth, more GPUs cannot
                 be used efficiently.
+                <img src="cmg.png" alt="">
             </div>
 
 
@@ -166,7 +167,7 @@
 
             <div class="curvycontent" style="font-weight: 400;">
 
-                I put this section under a different heading because this is the most important problem of GPU. GPUs are
+                I have put this section under a different heading because this is the most important problem of a GPU. GPUs are
                 used in the Server to generate encrypted text from plaintext. But there is a correlation between the
                 time taken to encrypt a text and the private key used to encrypt data. One can send multiple text files
                 to the Server and get the encrypted file and the corresponding time to encrypt that data. Due to the
@@ -186,10 +187,10 @@
 
 
                     <li>
-                        <span class="bold-font">Naïve Solution:</span>
-                        The most basic solution for this problem is, Disable coalescing altogether. That means there is
-                        no meaning of GPU. Also, this decreases the overall performance by 178%. This solution is Good
-                        for Security, Bad for Performance.
+                        <span class="bold-font">Naive Solution:</span>
+                        The most basic solution for this problem is, Disable coalescing altogether. This decreases the overall performance 
+                        by 178%. This solution is Good
+                        for Security but Bad for Performance.
                     </li>
 
                     <li>
