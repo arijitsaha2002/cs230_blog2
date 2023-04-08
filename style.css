@@ -1,0 +1,166 @@
+.Body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    /* background-color: yellow; */
+    width: 80vw;
+    height: max-content;
+}
+
+.Center {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    /* background-color: pink; */
+    font-family: 'museo-sans', sans-serif;
+    text-align: center;
+    font-size: 3.2em;
+    font-weight: 900;
+    line-height: 1.12;
+    letter-spacing: -1.5px;
+}
+
+.AuthorBox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+.Img {
+    border-radius: 7.5vh;
+    height: 15vh;
+    display: inline;
+}
+
+.ImgBig {
+    width: 80vw;
+    border-radius: .3em;
+}
+
+.FirstLine {
+    display: inline;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'pt-serif', Georgia, serif;
+    line-height: 1.5;
+}
+
+.content {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.6rem;
+    color: #263238;
+    font-family: 'pt-serif', Georgia, serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.curvycontent {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.5rem;
+    color: #263238;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: -2px;
+    font-weight: 530;
+    line-height: 1.5;
+}
+
+.linkFont {
+    color: #1673d0;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.heading {
+    color: #11171A;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.12;
+    word-spacing: -2px;
+}
+
+.contentBody {
+    text-align: justify;
+}
+
+@media only screen and (min-width: 768px) {
+    .contentBody {
+        width: 60vw;
+    }
+}
+
+.myself {
+    display: inline;
+    font-size: 1.3rem;
+    font-family: 'pt-serif', Georgia, serif;
+    font-weight: 400;
+    line-height: 1.5;
+    word-spacing: -1.5px;
+}
+
+.footnote {
+    background-color: #a4286a;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 10vw;
+    padding: 0;
+}
+
+.topbar {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin-bottom: 0;
+    height: max-content;
+}
+
+.scroll {
+    background-color: blueviolet;
+    /* display: inline-block; */
+    height: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0;
+    z-index: 9;
+    position: relative;
+    top: -10px;
+}
+
+.scrollOld {
+    top: 0;
+    background-color: rgb(208, 213, 213);
+    position: relative;
+    display: inline-block;
+    position: relative;
+    height: 5px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0;
+}
+
+.bold-font{
+    font-weight: bold;
+    display: block;
+}
